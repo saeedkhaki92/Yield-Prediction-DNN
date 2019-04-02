@@ -260,10 +260,10 @@ def main_model(X_training,Y_training,X_test, Y_test, layer, Max_it,learning_rate
 
 
 
-X_training=np.load('X_training')
-Y_training=np.load('Y_training')
-X_test=np.load('X_test')
-Y_test=np.load('Y_test')
+X_training=np.load('X_training.npz')
+Y_training=np.load('Y_training.npz')
+X_test=np.load('X_test.npz')
+Y_test=np.load('Y_test.npz')
 
 
 n_x = X_training.shape[0]
@@ -284,7 +284,7 @@ learning_rate = 0.0003  # Learning rate
 
 
 gamma1 = 0.006  # 0.006  # L1 regularization amount for Layer 1
-gamma2 = 0.002  # 0.2   # L2 regularization amount for other layers
+gamma2 = 0.002  # 0.002   # L2 regularization amount for other layers
 
 K1 = np.ones([1, n_l1], dtype=float) * 1
 K2 = np.ones([1, n_l2], dtype=float) * 1
