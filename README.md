@@ -1,7 +1,7 @@
 # Yield-Prediction-DNN
 
 
-This repository contain my code for the "Crop Yield Prediction Using Deep Neural Networks" paper.
+This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper.
 
 
 ## Getting Started 
