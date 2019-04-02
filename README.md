@@ -18,4 +18,5 @@ This repository contain my code for the "Crop Yield Prediction Using Deep Neural
  
  - Genotype , soil, and weather data were used in the paper. You should load your data as train and test, then run the model.
  
- - The genotype data were coded in `-1`, `0`, `1` values, respectively representing aa, aA, and AA alleles
+ - The genotype data were coded in `-1`, `0`, `1` values, respectively representing aa, aA, and AA alleles.
+ - Data are fed to the network as 1d vectors.
