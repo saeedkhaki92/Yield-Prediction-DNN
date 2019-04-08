@@ -1,7 +1,7 @@
 # Yield-Prediction-DNN
 
 
-This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper. The network is a deep feedforward neural network which uses state-of-the-art deep learning techniques such as residual learning, batch normalization, dropout, L1 and L2 regularization.
+This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper authered by Saeed Khaki and Lizhi Wang. The network is a deep feedforward neural network which uses the state-of-the-art deep learning techniques such as residual learning, batch normalization, dropout, L1 and L2 regularization.
 
 
 ## Getting Started 
