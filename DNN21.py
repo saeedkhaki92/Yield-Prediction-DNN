@@ -116,7 +116,7 @@ def main_model(X_training,Y_training,X_test, Y_test, layer, Max_it,learning_rate
 
 
 
-    with tf.device("/cpu:0"):
+    with tf.device("/gpu:0"):
 
         X_t = tf.placeholder(shape=[n_x, None], dtype=tf.float32)
         Y_t = tf.placeholder(shape=[1, None], dtype=tf.float32)
