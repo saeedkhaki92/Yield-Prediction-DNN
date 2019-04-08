@@ -1,7 +1,7 @@
 # Yield-Prediction-DNN
 
 
-This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper.
+This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper. The network is a deep feedforward neural network which uses state-of-the-art deep learning techniques such as residual learning, batch normalization, dropout, L1 and L2 regularization.
 
 
 ## Getting Started 
@@ -23,8 +23,6 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
  - The environment data (weather and soil) has dimension `n-by-k`, where n and k denote the number of obseration and enviromental components. 
  
  
- - Data are fed to the network as 1d vectors (dimension p+k) .
+ - Each observation is fed to the network as 1d vectors (dimension p+k) .
  
- \begin{equation}
-a=2
-\end{equation}
+
