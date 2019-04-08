@@ -283,8 +283,8 @@ learning_rate = 0.0003  # Learning rate
 
 
 
-gamma1 = 0.006  # 0.006  # L1 regularization amount for Layer 1
-gamma2 = 0.002  # 0.002   # L2 regularization amount for other layers
+gamma1 = 0.0006  # 0.006  # L1 regularization amount for Layer 1
+gamma2 = 0.0002  # 0.002   # L2 regularization amount for other layers
 
 K1 = np.ones([1, n_l1], dtype=float) * 1
 K2 = np.ones([1, n_l2], dtype=float) * 1
