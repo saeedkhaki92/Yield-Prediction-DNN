@@ -226,36 +226,42 @@ def main_model(X_training,Y_training,X_test, Y_test, layer, Max_it,learning_rate
             sess.run(train_op, feed_dict={X_t: Batch_X, Y_t: Batch_Y, is_tarining: True,lr:learning_rate})
 
             if i % 5000 == 0:
-
-                I1 = np.random.randint(X_test.shape[1], size=batch_size_te)
+                
+  
+                #I1 = np.random.randint(X_test.shape[1], size=batch_size_te)
 
                 rmse_tr,yhat_tr_n = sess.run([RMSE3,Yhat3], feed_dict={X_t:X_training, Y_t: Y_training, is_tarining: False})
 
                 ctr = np.corrcoef(np.squeeze(yhat_tr_n), np.squeeze(Y_training))[0, 1]
 
                 rmse_te,yhat_te_n = sess.run([RMSE3,Yhat3],
-                                   feed_dict={X_t: X_test[:, I1], Y_t: Y_test[0, I1].reshape(1, len(Y_test[0, I1])),
+                                   feed_dict={X_t: X_test, Y_t: Y_test.reshape(1, -1),
                                               is_tarining: False})
 
                 LossTe.append(rmse_te)
                 LossTr.append(rmse_tr)
 
-                ce = np.corrcoef(np.squeeze(yhat_te_n), np.squeeze(Y_test[0, I1]))[0, 1]
+                ce = np.corrcoef(np.squeeze(yhat_te_n), np.squeeze(Y_test))[0, 1]
                 print("Iteration %d , The training RMSE is %f  and C is %f and test RMSE is %f  and C %f" % (i, rmse_tr, ctr,rmse_te,ce))
 
 
         rmse_te, Yhat_te = sess.run([RMSE3, Yhat3],
-                                    feed_dict={X_t: X_test[:, 0:], Y_t: Y_test[:, 0:], is_tarining: False})
+                                    feed_dict={X_t: X_test, Y_t: Y_test, is_tarining: False})
         rmse_tr, Yhat_tr = sess.run([RMSE3, Yhat3],
                                     feed_dict={X_t: X_training, Y_t: Y_training, is_tarining: False})
 
     saver = tf.train.Saver()
-    saver.save(sess, './saved_model', global_step=i)
+    saver.save(sess, './saved_model_corn_2018_DNN21', global_step=i)
+    print(rmse_te,rmse_tr)
     ctr = np.corrcoef(np.squeeze(Yhat_tr), np.squeeze(Y_training))[0, 1]
     print(ctr)
 
-    ce = np.corrcoef(np.squeeze(Yhat_te), np.squeeze(Y_test[:, 0:]))[0, 1]
+    ce = np.corrcoef(np.squeeze(Yhat_te), np.squeeze(Y_test))[0, 1]
     print('test C',ce)
+    
+    
+    
+    
     return rmse_tr, rmse_te, Yhat_tr, Yhat_te, Y_training, Y_test, LossTr, LossTe
 
 
