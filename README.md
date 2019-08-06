@@ -14,7 +14,7 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
  - matplotlib
  
  
- ## Data
+ ## Dimension of input data
  
  - Genotype , soil, and weather data were used in the paper. You should load your data as train and test, then run the model.
  
