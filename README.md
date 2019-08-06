@@ -6,7 +6,7 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
 
 ## Getting Started 
 
- Please install following packages in Python3:
+ Please install the following packages in Python3:
  
  
  - numpy 
