@@ -26,3 +26,9 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
  - Each observation is fed to the network as 1d vectors (dimension p+k) .
  
 
+## DATA AVAILABILITY STATEMENT
+
+The data analyzed in this study was provided by Syngenta for 2018 Syngenta Crop Challenge. We accessed
+the data through annual Syngenta Crop Challenge. During the challenge, September 2017 to January 2018,
+the data was open to the public. Researchers who wish to access the data may do so by contacting Syngenta
+directly.
