@@ -14,7 +14,7 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
  - matplotlib
  
  
- ## Dimension of input data
+ ## Dimension of Input Data
  
  - Genotype , soil, and weather data were used in the paper. You should load your data as train and test, then run the model.
  
@@ -26,7 +26,7 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
  - Each observation is fed to the network as 1d vectors (dimension p+k) .
  
 
-## DATA AVAILABILITY STATEMENT
+##  Data Availability Statement 
 
 The data analyzed in this study was provided by Syngenta for 2018 Syngenta Crop Challenge. We accessed
 the data through annual Syngenta Crop Challenge. During the challenge, September 2017 to January 2018,
