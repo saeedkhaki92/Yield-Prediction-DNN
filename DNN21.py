@@ -107,7 +107,8 @@ def Cost_function(Y, Yhat):
 
     MSE = tf.squeeze(tf.reduce_mean(E2, axis=1))
     RMSE = tf.pow(MSE, 0.5)
-    Loss = tf.losses.huber_loss(Y, Yhat, weights=1.0, delta=1.0)
+    #Loss = tf.losses.huber_loss(Y, Yhat, weights=1.0, delta=1.0)
+    Loss=MSE
     return RMSE, MSE, E, Loss
 
 
