@@ -3,7 +3,7 @@
 
 This repository contains my code for the "Crop Yield Prediction Using Deep Neural Networks" paper authered by Saeed Khaki and Lizhi Wang. The network is a deep feedforward neural network which uses the state-of-the-art deep learning techniques such as residual learning, batch normalization, dropout, L1 and L2 regularization.
 
-### Please cite our work if you use our code. Thanks!
+### Please cite our paper if you use our code. Thanks!
 ```
 @article{khaki2019crop,
   title={Crop yield prediction using deep neural networks},
