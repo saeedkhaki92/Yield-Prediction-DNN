@@ -42,7 +42,7 @@ This repository contains my code for the "Crop Yield Prediction Using Deep Neura
 The data analyzed in this study was provided by Syngenta for 2018 Syngenta Crop Challenge. We accessed
 the data through annual Syngenta Crop Challenge. During the challenge, September 2017 to January 2018,
 the data was open to the public. Researchers who wish to access the data may do so by contacting Syngenta
-directly. We are not allowed to share the data due to non disclosure agreement, sorry.
+directly. We are not allowed to share the data due to non-disclosure agreement, sorry.
 
 ## Notice
 
