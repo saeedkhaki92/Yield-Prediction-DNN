@@ -44,6 +44,6 @@ the data through annual Syngenta Crop Challenge. During the challenge, September
 the data was open to the public. Researchers who wish to access the data may do so by contacting Syngenta
 directly.
 
-### We have recenetly published a new paper titled <a href="https://arxiv.org/abs/1911.09045" target="_blank">"A CNN-RNN Framework for Crop Yield Prediction"</a> published in <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/abstract" target="_blank"> Frontiers in Plant Science Journal</a>. This paper predicts corn and soybean yields based on weather, soil and management practices data. Reseracher can use the data from this paper using following <a href="https://arxiv.org/abs/1911.09045" target="_blank"> link</a>. 
+### We have recenetly published a new paper titled <a href="https://arxiv.org/abs/1911.09045" target="_blank">"A CNN-RNN Framework for Crop Yield Prediction"</a> published in <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/abstract" target="_blank"> Frontiers in Plant Science Journal</a>. This paper predicts corn and soybean yields based on weather, soil and management practices data. Reseracher can use the data from this paper using following <a href="https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction" target="_blank"> link</a>. 
 
 
