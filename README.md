@@ -46,6 +46,6 @@ directly. We are not allowed to share the data due to non-disclosure agreement, 
 
 ## Notice
 
-### We have recenetly published a new paper titled <a href="https://arxiv.org/abs/1911.09045" target="_blank">"A CNN-RNN Framework for Crop Yield Prediction"</a> published in <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/abstract" target="_blank"> Frontiers in Plant Science Journal</a>. This paper predicts corn and soybean yields based on weather, soil and management practices data. Reseracher can use the data from this paper using following <a href="https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction" target="_blank"> link</a>. We spend a lot of time gathering and cleaning the data from different publicly available sources. Please cite our papers if you use our data or codes. Thanks.
+### We have recenetly published a new paper titled <a href="https://arxiv.org/abs/1911.09045" target="_blank">"A CNN-RNN Framework for Crop Yield Prediction"</a> published in <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/abstract" target="_blank"> Frontiers in Plant Science Journal</a>. This paper predicts corn and soybean yields based on weather, soil and management practices data. Reserachers can use the data from this paper using following <a href="https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction" target="_blank"> link</a>. We spend a lot of time gathering and cleaning the data from different publicly available sources. Please cite our papers if you use our data or codes. Thanks.
 
 
